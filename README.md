@@ -1,8 +1,7 @@
 # FMC_IPS_configuration
 
 
-This tool shows how a script can create Snort IPS rules using web portal (Flask).  
-
+This tool shows how a script can create and modify Snort IPS rules using a web portal (python Flask) application.  
 
   
 # How to install:
