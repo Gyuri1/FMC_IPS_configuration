@@ -16,9 +16,9 @@ This tool shows how a script can create Snort IPS rules using web portal (Flask)
   `pip install flask`
 
 
-  The  `fmc_config.py` contains the FMC paramters. 
-  Please create a `local` intrustion rule group and assign a policy.
-  This script will modify the the intrustion rules in this given group.
+  The  `fmc_config.py` contains the FMC paramters.  
+  Please create a `local` intrustion rule group and assign a policy.  
+  This script will modify the the intrustion rules in this given group.  
 
 
 # How to use:
