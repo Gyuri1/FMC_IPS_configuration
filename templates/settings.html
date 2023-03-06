@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Settings {% endblock %}</h1>
+     
+      <form method="post">
+        
+        <label for="title">FMC hostname:</label>
+        <br>
+        <input type="text" name="fmchost"
+               placeholder="fmc.mycompany.com"
+               value="{{ request.form['title'] or fmchost }}"></input>
+        <br>
+        <br>
+
+        <label for="title">FMC admin:</label>
+        <br>
+        <input type="text" name="fmcadmin"
+               placeholder="apiadmin"
+               value="{{ request.form['title'] or fmcadmin }}"></input>
+        <br>
+        <br>
+
+        <label for="title">FMC password:</label>
+        <br>
+        <input type="text" name="fmcpassword"
+               placeholder="BigSecret"
+               value="{{ request.form['title'] or fmcpassword }}"></input>
+        <br>
+        <br>
+
+        <label for="title">IPS policy name:</label>
+        <br>
+        <input type="text" name="ips_policy"
+               placeholder="BigSecret"
+               value="{{ request.form['title'] or ips_policy }}"></input>
+        <br>
+        <br>
+
+        <label for="title">IPS rule group name:</label>
+        <br>
+        <input type="text" name="ips_rulegroup"
+               placeholder="BigSecret"
+               value="{{ request.form['title'] or ips_rulegroup}}"></input>
+        <br>
+        <br>
+
+        <label for="title">IPS rule number:</label>
+        <br>
+        <input type="text" name="ips_rule_number"
+               placeholder="BigSecret"
+               value="{{ request.form['title'] or ips_rule_number }}"></input>
+        <br>
+        <br>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock %}
