@@ -31,9 +31,10 @@ Visit this web page using your browser: http://127.0.0.1:5000/
 ![Flask GUI](/flask_gui.jpg?raw=true "Flask GUI")
 
 
-IPSApp: It shows the configured entries
-Create: You can add new entry
-Settings: FMC configuration 
-Deploy: The script deploys the current rules into FMC using `block` action.
-Reset: The script deploys the current rules into FMC using `alert` action.
+FLask based script menu:  
+- IPSApp: It shows the configured entries. 
+- Create: You can add new entry. 
+- Settings: FMC configuration.   
+- Deploy: The script deploys the current rules into FMC using `block` action.  
+- Reset: The script deploys the current rules into FMC using `alert` action.  
 
