@@ -28,3 +28,4 @@ This tool shows how a script can create and modify Snort IPS rules using a web p
 
 Visit this web page using your browser: http://127.0.0.1:5000/  
 
+![Flask GUI](/flask_gui.jpg?raw=true "Title")
