@@ -31,7 +31,7 @@ Visit this web page using your browser: http://127.0.0.1:5000/
 ![Flask GUI](/flask_gui.jpg?raw=true "Flask GUI")
 
 
-FLask based script menu:  
+Python Flask based script's menu:  
 - IPSApp: It shows the configured entries. 
 - Create: You can add new entry. 
 - Settings: FMC configuration.   
