@@ -16,8 +16,8 @@ This tool shows how a script can create and modify Snort 3 IPS rules using a web
 
 
   The `fmc_config.py` file contains the FMC paramters.  
-  Please create a `local` intrustion rule group (`ips_rulegroup`) and   
-  assign to an intrustion policy (`ips_policy`).  
+  Please create a `local` intrustion rule group (like: `ips_rulegroup`) and   
+  assign to an intrustion policy (like: `ips_policy`).  
   
   This script will modify the the intrustion rules in this given intrusion group.  
 
